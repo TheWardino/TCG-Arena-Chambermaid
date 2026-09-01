@@ -1,246 +1,280 @@
 {
-  "name": "Chambermaid",
-  "menuBackgroundImage": "https://valcur.github.io/TCG-Arena-Yugioh/Images/banner.jpg",
-  "defaultRessources": {
-    "backgrounds": [
-      "https://valcur.github.io/TCG-Arena-Pokemon/Images/1.jpg",
-      "https://valcur.github.io/TCG-Arena-Pokemon/Images/2.jpg",
-      "https://valcur.github.io/TCG-Arena-Pokemon/Images/3.jpg",
-      "https://valcur.github.io/TCG-Arena-Pokemon/Images/4.jpg",
-      "https://valcur.github.io/TCG-Arena-Pokemon/Images/5.jpg",
-      "https://valcur.github.io/TCG-Arena-Pokemon/Images/6.jpg"
-    ],
-    "decksUrl": "https://valcur.github.io/TCG-Arena-Pokemon/PokemonDecks.json"
-  },
-  "cardRotation": "90",
-  "cards": {
-    "dataUrl": "https://thewardino.github.io/TCG-Arena-Chambermaid/ChambermaidCards.json",
-    "cardBack": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/TestCardBack.png",
-    "extraCardBacks": {
-        "Vault": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/TestCardBackVault.png"
-  },
-  "deckBuilding": {
-    "mainFilters": [
-      "type",
-      "cost"
-    ],
-    "formats": [
-      {
-        "title": "Alpha Testing",
-        "gameplay": "Classic",
-        "deckRuleset": "Standard"
-      }
-    ],
-    "deckRulesets": {
-      "Standard": {
-        "general": {
-          "min": 46,
-          "max": 46,
-          "maxPerCard": 3
-        },
-        "categories": [
-          {
-            "category": "Chamber",
-            "min": 6,
-            "max": 6,
-            "maxPerCard": 2
-          }
+    "name": "Star wars unlimited",
+    "menuBackgroundImage": "https://i.ibb.co/JWTpk3P7/FMrb-NER-Imgur.jpg",
+    "deckBuilding": {
+        "mainFilters": [
+            "aspects",
+            "type",
+            "cost"
+        ],
+        "formats": [
+            {
+                "title": "Premier",
+                "gameplay": "Classic"
+            },
+            {
+                "title": "Twin Suns",
+                "gameplay": "Classic"
+            }
         ]
-      
-  },
-  "gameplay": {
-    "Classic": {
-      "beforeGameStart":{
-        "chooseAnotherStartingPlayer": true,
-        "initialBoardSetup": {
-          "0": [
-            {
-              "drawFromTop": "Vault",
-              "count":1,
-              "destination":"Chamber"
-            },
-            {
-              "drawFromTop": "Deck",
-              "count":1,
-              "destination":"Hand"
-            }
-          ],
-          "1": [
-            {
-              "drawFromTop": "Vault",
-              "count":1,
-              "destination":"Chamber"
-            },
-            {
-              "drawFromTop": "Deck",
-              "count":1,
-              "destination":"Hand"
-            }
-          ]
-        }
-      },
-      "mulligan": {
-        "info": "You can draw a new hand once.",
-        "startingHandSize": 4,
-        "mulliganCount": {
-          "max": 1
-        },
-        "mulliganCycle": {
-          "selectionRange": {
-            "min": 4
-          }
-        }
-      },
-      "newTurn": {
-        "drawOnStart": false,
-        "sharedTurn": true,
-        "firstPlayerTokenName": "Starting",
-        "drawPerTurn": 1
-      },
-      "tokens": [
-        {
-          "name": "Starting",
-          "image": "https://i.imgur.com/Zr2oV9p.png",
-          "isUnique": true,
-          "leavesAtEndOfTurn": false
-        }
-      ],
-      "countersStartingValues": [
-        0
-      ],
-      "sections": {
-        "customSections": [
-          "Lineup",
-          "Chamber",
-          "Vault"
-        ],
-        "layout": {
-          "direction": "row",
-          "isSymetricalForOpponents": true,
-          "content": [
-            {
-              "direction": "row",
-              "content": [
-                {
-                  "section": "Lineup_1"
+    },
+    "gameplay": {
+        "Classic": {
+            "mulligan": {
+                "info": "You can draw a new hand once.",
+                "startingHandSize": 6,
+                "mulliganCount": {
+                    "max": 1
                 },
-                {
-                  "section": "Lineup_2"
-                },
-                {
-                  "section": "Lineup_3"
-                },
-                {
-                  "section": "Lineup_4"
-                },
-                {
-                  "section": "Lineup_5"
-                },
-                {
-                  "section": "Lineup_6"
+                "mulliganCycle": {
+                    "selectionRange": {
+                        "min": 6
+                    }
                 }
-              ]
             },
-            {
-              "direction": "row",
-              "content": [
+            "newTurn": {
+                "drawOnStart": false,
+                "sharedTurn": true,
+                "firstPlayerTokenName": "Initiative",
+                "drawPerTurn": 2
+            },
+            "tokens": [
                 {
-                  "section": "Vault"
+                    "name": "Initiative",
+                    "image": "https://i.imgur.com/Zr2oV9p.png",
+                    "isUnique": true,
+                    "leavesAtEndOfTurn": false
                 },
                 {
-                  "section": "Chamber"
+                    "name": "Blast",
+                    "image": "https://i.imgur.com/gW5E0z1.png",
+                    "isUnique": true,
+                    "leavesAtEndOfTurn": true
+                },
+                {
+                    "name": "Plan",
+                    "image": "https://i.imgur.com/hDR7qTd.png",
+                    "isUnique": true,
+                    "leavesAtEndOfTurn": true
+                },
+                {
+                    "name": "Force",
+                    "image": "https://i.imgur.com/SBFJBia.png",
+                    "isUnique": false,
+                    "leavesAtEndOfTurn": false
                 }
-              ]
+            ],
+            "draggableTokens": [
+                {
+                  "id": "Shield",
+                  "name": "Shield",
+                  "image": "https://valcur.github.io/TCG-Arena-SWU/Images/DraggableTokens/shield.png"
+                },
+                {
+                  "id": "Experience",
+                  "name": "Experience",
+                  "image": "https://valcur.github.io/TCG-Arena-SWU/Images/DraggableTokens/experience.png"
+                },
+                {
+                  "id": "Epic action",
+                  "name": "Epic action",
+                  "image": "https://valcur.github.io/TCG-Arena-SWU/Images/DraggableTokens/epic.png"
+                },
+				{
+                  "id": "Reminder",
+                  "name": "Reminder",
+                  "image": "https://valcur.github.io/TCG-Arena-SWU/Images/DraggableTokens/reminder.png"
+                },
+                {
+                  "id": "Sentinel",
+                  "name": "Sentinel",
+                  "image": "https://valcur.github.io/TCG-Arena-SWU/Images/DraggableTokens/sentinel.png"
+                },
+                {
+                  "id": "0a1",
+                  "name": "0a1",
+                  "image": "https://valcur.github.io/TCG-Arena-SWU/Images/DraggableTokens/0a1.png"
+                },
+				{
+                  "id": "a10",
+                  "name": "a10",
+                  "image": "https://valcur.github.io/TCG-Arena-SWU/Images/DraggableTokens/a10.png"
+                },
+				{
+                  "id": "a1a1",
+                  "name": "a1a1",
+                  "image": "https://valcur.github.io/TCG-Arena-SWU/Images/DraggableTokens/a1a1.png"
+                },
+				{
+                  "id": "m1m1",
+                  "name": "m1m1",
+                  "image": "https://valcur.github.io/TCG-Arena-SWU/Images/DraggableTokens/m1m1.png"
+                }
+              ],
+            "countersStartingValues": [
+                0
+            ],
+            "sections": {
+                "customSections": [
+                    "Ground",
+                    "Space",
+                    "Leader",
+                    "Base",
+                    "Mana",
+                    "Others"
+                ],
+                "layout": {
+                    "direction": "row",
+                    "isSymetricalForOpponents": true,
+                    "content": [
+                        {
+                            "direction": "column",
+                            "content": [
+                                {
+                                    "section": "Ground"
+                                },
+                                {
+                                    "section": "Mana"
+                                }
+                            ]
+                        },
+                        {
+                            "direction": "column",
+                            "style": {
+                                "width": "22vh",
+                                "justify-content": "start"
+                            },
+                            "content": [
+                                {
+                                    "section": "Base"
+                                },
+                                {
+                                    "section": "Leader"
+                                }
+                            ]
+                        },
+                        {
+                            "direction": "column",
+                            "content": [
+                                {
+                                    "section": "Space"
+                                },
+                                {
+                                    "section": "Others",
+                                    "isSymetricalForOpponents": true,
+                                    "style": {
+                                        "marginLeft": "auto",
+                                        "width": "40%"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "categoriesAlreadyOnBoard": [
+                    "Leader",
+                    "Base"
+                ],
+                "autoPlayFromHand": {
+                    "Unit - Ground": "Ground",
+                    "Unit - Space": "Space",
+                    "Leader": "Leader",
+                    "Base": "Base",
+                    "Event": "Stack",
+                    "Upgrade": "GROUP",
+                    "Credit Token": "Others"
+                },
+                "autoPlayFromStack": {
+                    "Unit - Ground": "Ground",
+                    "Unit - Space": "Space",
+                    "Leader": "Leader",
+                    "Base": "Base",
+                    "Event": "Discard",
+                    "Upgrade": "GROUP",
+                    "Credit Token": "Others"
+                },
+                "sectionsDict": {
+                    "Stack": {
+                        "isDefaultSection": true,
+                        "title": "Stack",
+                        "isHidden": "no",
+                        "height": "HUGE",
+                        "alignment": "NONE",
+                        "isHorizontalAllowed": false,
+                        "isGroupForbidden": true,
+                        "displayedTitle": "Pile"
+                    },
+                    "Ground": {
+                        "title": "Ground",
+                        "isHidden": "no",
+                        "height": "MEDIUM",
+                        "alignment": "CENTER",
+                        "isHorizontalAllowed": true,
+                        "enterTapped": true,
+                        "displayedTitle": "Ground units"
+                    },
+                    "Space": {
+                        "title": "Space",
+                        "isHidden": "no",
+                        "height": "MEDIUM",
+                        "alignment": "CENTER",
+                        "isHorizontalAllowed": true,
+                        "enterTapped": true,
+                        "displayedTitle": "Space units"
+                    },
+                    "Leader": {
+                        "title": "Leader",
+                        "isHidden": "no",
+                        "height": "DEFAULT",
+                        "alignment": "CENTER",
+                        "isHorizontalAllowed": true,
+                        "noQuickActions": true
+                    },
+                    "Base": {
+                        "title": "Base",
+                        "isHidden": "no",
+                        "height": "DEFAULT",
+                        "alignment": "CENTER",
+                        "isHorizontalAllowed": true,
+                        "noQuickActions": true
+                    },
+                    "Mana": {
+                        "title": "Mana",
+                        "isHidden": "yes",
+                        "height": "SMALL",
+                        "alignment": "START",
+                        "opponentAlignment": "END",
+                        "noAutoPayTo": "true",
+                        "isHorizontalAllowed": false,
+                        "displayedTitle": "Ressources"
+                    },
+                    "Others": {
+                        "title": "Others",
+                        "isHidden": "no",
+                        "height": "SMALL",
+                        "alignment": "END",
+                        "opponentAlignment": "START",
+                        "displayedTitle": "Others",
+                        "noQuickActions": true
+                    }
+                }
             }
-          ]
-        },
-        "categoriesAlreadyOnBoard": [
-          "Chamber",
-          "Lineup_1",
-          "Lineup_2",
-          "Lineup_3",
-          "Lineup_4",
-          "Lineup_5",
-          "Lineup_6",
-          "Vault"
-        ],
-        "autoPlayFromHand": {
-          "Tactic": "Stack"
-        },
-        "autoPlayFromStack": {
-          "Tactic": "Discard"
-        },
-        "sectionsDict": {
-          "Stack": {
-            "isDefaultSection": true,
-            "title": "Stack",
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "NONE",
-            "isHorizontalAllowed": false,
-            "isGroupForbidden": true,
-            "displayedTitle": "Pile"
-          },
-          "Lineup_1": {
-            "title": "Lineup_1",
-            "isHidden": "false",
-            "height": "MEDIUM",
-            "alignment": "CENTER",
-            "displayedTitle": "Lineup 1"
-          },
-          "Lineup_2": {
-            "title": "Lineup_2",
-            "isHidden": "false",
-            "height": "MEDIUM",
-            "alignment": "CENTER",
-            "displayedTitle": "Lineup 2"
-          },
-          "Lineup_3": {
-            "title": "Lineup_3",
-            "isHidden": "false",
-            "height": "MEDIUM",
-            "alignment": "CENTER",
-            "displayedTitle": "Lineup 3"
-          },
-          "Lineup_4": {
-            "title": "Lineup_4",
-            "isHidden": "false",
-            "height": "MEDIUM",
-            "alignment": "CENTER",
-            "displayedTitle": "Lineup 4"
-          },
-          "Lineup_5": {
-            "title": "Lineup_5",
-            "isHidden": "false",
-            "height": "MEDIUM",
-            "alignment": "CENTER",
-            "displayedTitle": "Lineup 5"
-          },
-          "Lineup_6": {
-            "title": "Lineup_6",
-            "isHidden": "false",
-            "height": "MEDIUM",
-            "alignment": "CENTER",
-            "displayedTitle": "Lineup 6"
-          },
-          "Chamber": {
-            "title": "Chamber",
-            "isHidden": "false",
-            "height": "SMALL",
-            "alignment": "CENTER",
-            "opponentAlignment": "END",
-            "displayedTitle": "Chamber"
-          },
-          "Vault": {
-            "title": "Vault",
-            "isHidden": "true",
-            "height": "SMALL",
-            "alignment": "START",
-            "opponentAlignment": "END",
-            "displayedTitle": "Vault"
-          }
         }
-      }
+    },
+    "defaultRessources": {
+        "backgrounds": [
+            "https://i.imgur.com/KmXSVQp.jpeg",
+            "https://i.imgur.com/CFOwlKx.jpeg",
+            "https://i.imgur.com/n2EYbyu.jpeg",
+            "https://i.imgur.com/C3LAixE.jpeg",
+            "https://i.imgur.com/EZ9z8z6.jpeg",
+            "https://i.imgur.com/CKuiePb.jpeg"
+        ],
+        "decksUrl": "https://valcur.github.io/TCG-Arena-SWU/SWUDecks.json"
+    },
+    "customHelp": "To put a card in your ressources, drag and drop the card in the ressources area. You can take the initiative, blast and plan token with the '+' button on the bottom left corner.",
+    "cards": {
+        "dataUrl": "https://valcur.github.io/TCG-Arena-SWU/SWUCards.json",
+        "cardBack": "https://i.imgur.com/alTEVLx.jpeg"
     }
-  }
-}}}}
+}
