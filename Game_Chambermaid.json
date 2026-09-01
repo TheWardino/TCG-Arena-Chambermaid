@@ -1,0 +1,195 @@
+{
+  "name": "Chambermaid",
+  "defaultRessources": {
+    "backgrounds": [
+      "https://valcur.github.io/TCG-Arena-Pokemon/Images/1.jpg",
+      "https://valcur.github.io/TCG-Arena-Pokemon/Images/2.jpg",
+      "https://valcur.github.io/TCG-Arena-Pokemon/Images/3.jpg",
+      "https://valcur.github.io/TCG-Arena-Pokemon/Images/4.jpg",
+      "https://valcur.github.io/TCG-Arena-Pokemon/Images/5.jpg",
+      "https://valcur.github.io/TCG-Arena-Pokemon/Images/6.jpg"
+    ],
+    "decksUrl": "https://valcur.github.io/TCG-Arena-Pokemon/PokemonDecks.json"
+  },
+  "cards": {
+    "dataUrl": "https://valcur.github.io/TCG-Arena-Pokemon/PokemonCards.json",
+    "cardBack": "https://imgur.com/7Ew7Xv1",
+    "extraCardBacks": {
+        "type_1": "https://imgur.com/a/VhNHflb"
+  },
+  "deckBuilding": {
+    "mainFilters": [
+      "type",
+      "cost"
+    ],
+    "formats": [
+      {
+        "title": "Alpha Testing",
+        "gameplay": "Classic"
+      }
+    ]
+  },
+  "gameplay": {
+    "Classic": {
+      "mulligan": {
+        "info": "You can draw a new hand once.",
+        "startingHandSize": 4,
+        "mulliganCount": {
+          "max": 1
+        },
+        "mulliganCycle": {
+          "selectionRange": {
+            "min": 4
+          }
+        }
+      },
+      "newTurn": {
+        "drawOnStart": false,
+        "sharedTurn": true,
+        "firstPlayerTokenName": "Starting",
+        "drawPerTurn": 1
+      },
+      "tokens": [
+        {
+          "name": "Starting",
+          "image": "https://i.imgur.com/Zr2oV9p.png",
+          "isUnique": true,
+          "leavesAtEndOfTurn": false
+        }
+      ],
+      "sections": {
+        "customSections": [
+          "Lineup",
+          "Chamber",
+          "Vault"
+        ],
+        "layout": {
+          "direction": "row",
+          "isSymetricalForOpponents": true,
+          "content": [
+            {
+              "direction": "row",
+              "content": [
+                {
+                  "section": "Lineup_1"
+                },
+                {
+                  "section": "Lineup_2"
+                },
+                {
+                  "section": "Lineup_3"
+                },
+                {
+                  "section": "Lineup_4"
+                },
+                {
+                  "section": "Lineup_5"
+                },
+                {
+                  "section": "Lineup_6"
+                }
+              ]
+            },
+            {
+              "direction": "row",
+              "content": [
+                {
+                  "section": "Vault"
+                },
+                {
+                  "section": "Chamber"
+                }
+              ]
+            }
+          ]
+        },
+        "categoriesAlreadyOnBoard": [
+          "Chamber",
+          "Lineup_1",
+          "Lineup_2",
+          "Lineup_3",
+          "Lineup_4",
+          "Lineup_5",
+          "Lineup_6",
+          "Vault"
+        ],
+        "autoPlayFromHand": {
+          "Tactic": "Stack"
+        },
+        "autoPlayFromStack": {
+          "Tactic": "Discard"
+        },
+        "sectionsDict": {
+          "Stack": {
+            "isDefaultSection": true,
+            "title": "Stack",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "displayedTitle": "Pile"
+          },
+          "Lineup_1": {
+            "title": "Lineup_1",
+            "isHidden": "false",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "displayedTitle": "Lineup 1"
+          },
+          "Lineup_2": {
+            "title": "Lineup_2",
+            "isHidden": "false",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "displayedTitle": "Lineup 2"
+          },
+          "Lineup_3": {
+            "title": "Lineup_3",
+            "isHidden": "false",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "displayedTitle": "Lineup 3"
+          },
+          "Lineup_4": {
+            "title": "Lineup_4",
+            "isHidden": "false",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "displayedTitle": "Lineup 4"
+          },
+          "Lineup_5": {
+            "title": "Lineup_5",
+            "isHidden": "false",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "displayedTitle": "Lineup 5"
+          },
+          "Lineup_6": {
+            "title": "Lineup_6",
+            "isHidden": "false",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "displayedTitle": "Lineup 6"
+          },
+          "Chamber": {
+            "title": "Chamber",
+            "isHidden": "false",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": "END",
+            "displayedTitle": "Chamber"
+          },
+          "Vault": {
+            "title": "Vault",
+            "isHidden": "true",
+            "height": "SMALL",
+            "alignment": "START",
+            "opponentAlignment": "END",
+            "displayedTitle": "Vault"
+          }
+        }
+      }
+    }
+  }
+}}
