@@ -112,11 +112,6 @@
         0
       ],
       "sections": {
-        "customSections": [
-          "Lineup",
-          "Chamber",
-          "Vault"
-        ],
         "layout": {
           "direction": "column",
           "isSymetricalForOpponents": false,
@@ -126,16 +121,10 @@
               "style": true,
               "content": [
                 {
-                  "section": "Lineup_1",
-                  "style":{
-                    "marginRight": "4vh"
-                  }
+                  "section": "Lineup_1"
                 },
                 {
-                  "section": "Lineup_2",
-                  "style":{
-                    "width": "46vh"
-                  }
+                  "section": "Lineup_2"
                 },
                 {
                   "section": "Lineup_3"
@@ -156,12 +145,13 @@
               "style": false,
               "content": [
                 {
-                  "section": "Vault"
+                  "section": "Chamber"
                 },
                 {
-                  "section": "Chamber",
+                  "section": "Mana",
                   "style": {
-                    "width": "35%"
+                    "width": "35%",
+                    "marginRight": "4vh"
                   }
                 }
               ],
@@ -177,11 +167,11 @@
           "Lineup_4",
           "Lineup_5",
           "Lineup_6",
-          "Vault"
+          "Mana"
         ],
         "autoPlayFromHand": {
           "Tactic": "Stack",
-          "Chamber": "Chamber"
+          "Chamber": "Mana"
         },
         "autoPlayFromStack": {
           "Tactic": "Discard"
@@ -211,9 +201,9 @@
             "opponentAlignment": true,
             "noAutoPayTo": true,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Lineup",
+            "displayedTitle": "L1",
             "noQuickActions": false,
-            "enterTapped": true,
+            "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
@@ -227,9 +217,9 @@
             "opponentAlignment": true,
             "noAutoPayTo": true,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Lineup",
+            "displayedTitle": "L2",
             "noQuickActions": false,
-            "enterTapped": true,
+            "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
@@ -243,9 +233,9 @@
             "opponentAlignment": true,
             "noAutoPayTo": true,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Lineup",
+            "displayedTitle": "L3",
             "noQuickActions": false,
-            "enterTapped": true,
+            "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
@@ -259,9 +249,9 @@
             "opponentAlignment": true,
             "noAutoPayTo": true,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Lineup",
+            "displayedTitle": "L4",
             "noQuickActions": false,
-            "enterTapped": true,
+            "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
@@ -275,9 +265,9 @@
             "opponentAlignment": true,
             "noAutoPayTo": true,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Lineup",
+            "displayedTitle": "L5",
             "noQuickActions": false,
-            "enterTapped": true,
+            "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
@@ -291,23 +281,23 @@
             "opponentAlignment": true,
             "noAutoPayTo": true,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Lineup",
+            "displayedTitle": "L6",
             "noQuickActions": false,
-            "enterTapped": true,
+            "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "Chamber": {
-            "title": "Chamber",
+          "Mana": {
+            "title": "Mana",
             "isHidden": "no",
             "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": true,
             "isHorizontalAllowed": true,
-            "displayedTitle": "Chamber",
+            "displayedTitle": "Chamber Area",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
@@ -317,14 +307,14 @@
             "cardActionShortcut": {
               "action": "MOVE",
               "actionData": {
-                "destination": "Runes",
+                "destination": "Chamber",
                 "position": "BOTTOM"
               },
               "image": "https://russeus.github.io/RB-TCG-Arena/Images/recycleButton.png"
             }
           },
-          "Vault": {
-            "title": "Vault",
+          "Chamber": {
+            "title": "Chamber",
             "isHidden": "yes",
             "height": "SMALL",
             "alignment": "DECK",
