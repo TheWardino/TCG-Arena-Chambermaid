@@ -17,13 +17,14 @@
     "dataUrl": "https://thewardino.github.io/TCG-Arena-Chambermaid/ChambermaidCards.json",
     "cardBack": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/TestCardBack.png",
     "extraCardBacks": {
-      "Vault": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/TestCardBackVault.png"
+      "Chamber": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/TestCardBackVault.png"
     }
   },
   "deckBuilding": {
     "mainFilters": [
       "type",
-      "cost"
+      "cost",
+      "marks"
     ],
     "formats": [
       {
@@ -118,11 +119,11 @@
         ],
         "layout": {
           "direction": "column",
-          "isSymetricalForOpponents": true,
+          "isSymetricalForOpponents": false,
           "content": [
             {
               "direction": "row",
-              "style": false,
+              "style": true,
               "content": [
                 {
                   "section": "Lineup_1",
@@ -152,6 +153,7 @@
             },
             {
               "direction": "row",
+              "style": false,
               "content": [
                 {
                   "section": "Vault"
@@ -159,10 +161,11 @@
                 {
                   "section": "Chamber",
                   "style": {
-                    "marginRight": "4vh"
+                    "width": "35%"
                   }
                 }
-              ]
+              ],
+              "isSymetricalForOpponents": false
             }
           ]
         },
@@ -186,67 +189,135 @@
         "sectionsDict": {
           "Stack": {
             "isDefaultSection": true,
-            "title": "Stack",
             "isHidden": "no",
-            "height": "MEDIUM",
+            "height": "HUGE",
             "alignment": "NONE",
             "isHorizontalAllowed": false,
             "isGroupForbidden": true,
-            "displayedTitle": "Pile"
+            "displayedTitle": "Stack",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           },
           "Lineup_1": {
             "title": "Lineup_1",
-            "isHidden": "false",
+            "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER",
-            "displayedTitle": "Lineup 1"
+            "opponentAlignment": true,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Lineup",
+            "noQuickActions": false,
+            "enterTapped": true,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           },
           "Lineup_2": {
             "title": "Lineup_2",
-            "isHidden": "false",
+            "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER",
-            "displayedTitle": "Lineup 2"
+            "opponentAlignment": true,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Lineup",
+            "noQuickActions": false,
+            "enterTapped": true,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           },
           "Lineup_3": {
             "title": "Lineup_3",
-            "isHidden": "false",
+            "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER",
-            "displayedTitle": "Lineup 3"
+            "opponentAlignment": true,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Lineup",
+            "noQuickActions": false,
+            "enterTapped": true,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           },
           "Lineup_4": {
             "title": "Lineup_4",
-            "isHidden": "false",
+            "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER",
-            "displayedTitle": "Lineup 4"
+            "opponentAlignment": true,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Lineup",
+            "noQuickActions": false,
+            "enterTapped": true,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           },
           "Lineup_5": {
             "title": "Lineup_5",
-            "isHidden": "false",
+            "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER",
-            "displayedTitle": "Lineup 5"
+            "opponentAlignment": true,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Lineup",
+            "noQuickActions": false,
+            "enterTapped": true,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           },
           "Lineup_6": {
             "title": "Lineup_6",
-            "isHidden": "false",
+            "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER",
-            "displayedTitle": "Lineup 6"
+            "opponentAlignment": true,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Lineup",
+            "noQuickActions": false,
+            "enterTapped": true,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           },
           "Chamber": {
             "title": "Chamber",
-            "isHidden": "false",
+            "isHidden": "no",
             "height": "SMALL",
             "alignment": "CENTER",
-            "opponentAlignment": "END",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
             "displayedTitle": "Chamber",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
             "cardActionShortcut": {
               "action": "MOVE",
-              "actionData":{
-                "destination": "Vault",
+              "actionData": {
+                "destination": "Runes",
                 "position": "BOTTOM"
               },
               "image": "https://russeus.github.io/RB-TCG-Arena/Images/recycleButton.png"
