@@ -1,4 +1,20 @@
 {
+  "0": {
+    "id": 0,
+    "face": {
+      "front": {
+        "name": "Quatz",
+        "type": "Chamber",
+        "cost": 0,
+        "image": "https://images.ygoprodeck.com/images/cards/483.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Quartz",
+    "type": "Chamber",
+    "cost": 0,
+    "marks": 3
+  },
   "1": {
     "id": 1,
     "face": {
@@ -46,5 +62,37 @@
     "type": "Tactic",
     "cost": 1,
     "marks": 0
+  },
+  "0 (copy 2)": {
+    "id": -2,
+    "face": {
+      "front": {
+        "name": "Big Quatz",
+        "type": "Chamber",
+        "cost": 0,
+        "image": "https://images.ygoprodeck.com/images/cards/483.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Big Quartz",
+    "type": "Chamber",
+    "cost": 0,
+    "marks": 4
+  },
+  "0 (copy)": {
+    "id": -1,
+    "face": {
+      "front": {
+        "name": "Small Quatz",
+        "type": "Chamber",
+        "cost": 0,
+        "image": "https://images.ygoprodeck.com/images/cards/483.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Small Quartz",
+    "type": "Chamber",
+    "cost": 0,
+    "marks": 2
   }
-  }
+}

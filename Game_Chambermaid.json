@@ -117,11 +117,12 @@
           "Vault"
         ],
         "layout": {
-          "direction": "row",
+          "direction": "column",
           "isSymetricalForOpponents": true,
           "content": [
             {
               "direction": "row",
+              "style": "false",
               "content": [
                 {
                   "section": "Lineup_1"
