@@ -3,96 +3,272 @@
     "id": 0,
     "face": {
       "front": {
-        "name": "Quatz",
+        "name": "Power Gem",
         "type": "Chamber",
         "cost": 0,
-        "image": "https://images.ygoprodeck.com/images/cards/483.jpg",
+        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/00.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Quartz",
+    "name": "Power Gem",
     "type": "Chamber",
     "cost": 0,
-    "marks": 3
+    "marks": 4
   },
   "1": {
     "id": 1,
     "face": {
       "front": {
-        "name": "Satchetman",
-        "type": "Company",
-        "cost": 1,
-        "image": "https://images.ygoprodeck.com/images/cards/483.jpg",
+        "name": "Weak Gem",
+        "type": "Chamber",
+        "cost": 0,
+        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/01.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Satchetman",
-    "type": "Company",
-    "cost": 1,
-    "marks": 1
+    "name": "Weak Gem",
+    "type": "Chamber",
+    "cost": 0,
+    "marks": 3
   },
   "2": {
     "id": 2,
     "face": {
       "front": {
-        "name": "Mine",
-        "type": "Landmark",
-        "cost": 1,
-        "image": "https://images.ygoprodeck.com/images/cards/483.jpg",
+        "name": "Potent Gem",
+        "type": "Chamber",
+        "cost": 0,
+        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/02.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Mine",
-    "type": "Landmark",
-    "cost": 1,
-    "marks": 0
+    "name": "Potent Gem",
+    "type": "Chamber",
+    "cost": 0,
+    "marks": 5
   },
   "3": {
     "id": 3,
     "face": {
       "front": {
-        "name": "Boost",
-        "type": "Tactic",
+        "name": "Anklebiter",
+        "type": "Company",
         "cost": 1,
-        "image": "https://images.ygoprodeck.com/images/cards/483.jpg",
+        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/03.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Boost",
+    "name": "Potent Gem",
+    "type": "Chamber",
+    "cost": 1,
+    "marks": 1
+  },
+  "4": {
+    "id": 4,
+    "face": {
+      "front": {
+        "name": "Anklebiter",
+        "type": "Company",
+        "cost": 1,
+        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/03.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Potent Gem",
+    "type": "Company",
+    "cost": 1,
+    "marks": 1
+  },
+  "5": {
+    "id": 5,
+    "face": {
+      "front": {
+        "name": "Armordillo",
+        "type": "Company",
+        "cost": 2,
+        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/03.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Armordillo",
+    "type": "Company",
+    "cost": 2,
+    "marks": 2
+  },
+  "6": {
+    "id": 6,
+    "face": {
+      "front": {
+        "name": "Anklebiter",
+        "type": "Company",
+        "cost": 1,
+        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/03.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Potent Gem",
+    "type": "Chamber",
+    "cost": 1,
+    "marks": 1
+  },
+  "7": {
+    "id": 7,
+    "face": {
+      "front": {
+        "name": "Starting Town",
+        "type": "Landmark",
+        "cost": 2,
+        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/03.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Potent Gem",
+    "type": "Chamber",
+    "cost": 2,
+    "marks": 0
+  },
+  "8": {
+    "id": 8,
+    "face": {
+      "front": {
+        "name": "Anklebiter",
+        "type": "Company",
+        "cost": 1,
+        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/03.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Potent Gem",
+    "type": "Chamber",
+    "cost": 1,
+    "marks": 1
+  },
+  "9": {
+    "id": 9,
+    "face": {
+      "front": {
+        "name": "Energize",
+        "type": "Tactic",
+        "cost": 1,
+        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/03.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Energize",
     "type": "Tactic",
     "cost": 1,
     "marks": 0
   },
-  "0 (copy 2)": {
-    "id": -2,
+  "10": {
+    "id": 10,
     "face": {
       "front": {
-        "name": "Big Quatz",
-        "type": "Chamber",
-        "cost": 0,
-        "image": "https://images.ygoprodeck.com/images/cards/483.jpg",
+        "name": "Energize",
+        "type": "Tactic",
+        "cost": 1,
+        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/03.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Big Quartz",
-    "type": "Chamber",
-    "cost": 0,
-    "marks": 4
+    "name": "Energize",
+    "type": "Tactic",
+    "cost": 1,
+    "marks": 0
   },
-  "0 (copy)": {
-    "id": -1,
+  "11": {
+    "id": 11,
     "face": {
       "front": {
-        "name": "Small Quatz",
-        "type": "Chamber",
-        "cost": 0,
-        "image": "https://images.ygoprodeck.com/images/cards/483.jpg",
+        "name": "Anklebiter",
+        "type": "Company",
+        "cost": 1,
+        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/03.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Small Quartz",
+    "name": "Potent Gem",
     "type": "Chamber",
-    "cost": 0,
-    "marks": 2
+    "cost": 1,
+    "marks": 1
+  },
+  "12": {
+    "id": 12,
+    "face": {
+      "front": {
+        "name": "Anklebiter",
+        "type": "Company",
+        "cost": 1,
+        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/03.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Potent Gem",
+    "type": "Chamber",
+    "cost": 1,
+    "marks": 1
+  },
+  "13": {
+    "id": 13,
+    "face": {
+      "front": {
+        "name": "Anklebiter",
+        "type": "Company",
+        "cost": 1,
+        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/03.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Potent Gem",
+    "type": "Chamber",
+    "cost": 1,
+    "marks": 1
+  },
+  "14": {
+    "id": 14,
+    "face": {
+      "front": {
+        "name": "Anklebiter",
+        "type": "Company",
+        "cost": 1,
+        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/03.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Potent Gem",
+    "type": "Chamber",
+    "cost": 1,
+    "marks": 1
+  },
+  "15": {
+    "id": 15,
+    "face": {
+      "front": {
+        "name": "Anklebiter",
+        "type": "Company",
+        "cost": 1,
+        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/03.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Potent Gem",
+    "type": "Chamber",
+    "cost": 1,
+    "marks": 1
+  },
+  "16": {
+    "id": 16,
+    "face": {
+      "front": {
+        "name": "Anklebiter",
+        "type": "Company",
+        "cost": 1,
+        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/03.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Potent Gem",
+    "type": "Chamber",
+    "cost": 1,
+    "marks": 1
   }
 }
