@@ -97,12 +97,12 @@
         "drawOnStart": false,
         "sharedTurn": true,
         "firstPlayerTokenName": "Starting",
-        "drawPerTurn": 1
+        "drawPerTurn": "1"
       },
       "tokens": [
         {
           "name": "Starting",
-          "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/EarthIcong.png",
+          "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/EarthIcon.png",
           "isUnique": true,
           "leavesAtEndOfTurn": false
         }
@@ -125,10 +125,16 @@
               "style": false,
               "content": [
                 {
-                  "section": "Lineup_1"
+                  "section": "Lineup_1",
+                  "style":{
+                    "marginRight": "4vh"
+                  }
                 },
                 {
-                  "section": "Lineup_2"
+                  "section": "Lineup_2",
+                  "style":{
+                    "width": "46vh"
+                  }
                 },
                 {
                   "section": "Lineup_3"
@@ -151,7 +157,10 @@
                   "section": "Vault"
                 },
                 {
-                  "section": "Chamber"
+                  "section": "Chamber",
+                  "style": {
+                    "marginRight": "4vh"
+                  }
                 }
               ]
             }
@@ -245,12 +254,21 @@
           },
           "Vault": {
             "title": "Vault",
-            "isHidden": "true",
+            "isHidden": "yes",
             "height": "SMALL",
-            "alignment": "START",
+            "alignment": "DECK",
+            "drawPerTurn": 1,
             "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": false,
             "displayedTitle": "Vault",
-            "isHorizontalAllowed": false
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "cardBackColor": "#e0e0e0"
           }
         }
       }
