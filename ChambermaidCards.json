@@ -70,7 +70,7 @@
         "name": "Anklebiter",
         "type": "Company",
         "cost": 1,
-        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/03.jpg",
+        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/04.jpg",
         "isHorizontal": false
       }
     },
@@ -86,7 +86,7 @@
         "name": "Armordillo",
         "type": "Company",
         "cost": 2,
-        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/03.jpg",
+        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/05.jpg",
         "isHorizontal": false
       }
     },
@@ -102,7 +102,7 @@
         "name": "Anklebiter",
         "type": "Company",
         "cost": 1,
-        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/03.jpg",
+        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/06.jpg",
         "isHorizontal": false
       }
     },
@@ -118,12 +118,12 @@
         "name": "Starting Town",
         "type": "Landmark",
         "cost": 2,
-        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/03.jpg",
+        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/07.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Potent Gem",
-    "type": "Chamber",
+    "name": "Starting Town",
+    "type": "Landmark",
     "cost": 2,
     "marks": 0
   },
@@ -134,7 +134,7 @@
         "name": "Anklebiter",
         "type": "Company",
         "cost": 1,
-        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/03.jpg",
+        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/08.jpg",
         "isHorizontal": false
       }
     },
@@ -150,7 +150,7 @@
         "name": "Energize",
         "type": "Tactic",
         "cost": 1,
-        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/03.jpg",
+        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/09.jpg",
         "isHorizontal": false
       }
     },
@@ -166,7 +166,7 @@
         "name": "Energize",
         "type": "Tactic",
         "cost": 1,
-        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/03.jpg",
+        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/10.jpg",
         "isHorizontal": false
       }
     },
@@ -182,7 +182,7 @@
         "name": "Anklebiter",
         "type": "Company",
         "cost": 1,
-        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/03.jpg",
+        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/11.jpg",
         "isHorizontal": false
       }
     },
@@ -198,7 +198,7 @@
         "name": "Anklebiter",
         "type": "Company",
         "cost": 1,
-        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/03.jpg",
+        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/12.jpg",
         "isHorizontal": false
       }
     },
@@ -214,7 +214,7 @@
         "name": "Anklebiter",
         "type": "Company",
         "cost": 1,
-        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/03.jpg",
+        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/13.jpg",
         "isHorizontal": false
       }
     },
@@ -230,7 +230,7 @@
         "name": "Anklebiter",
         "type": "Company",
         "cost": 1,
-        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/03.jpg",
+        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/14.jpg",
         "isHorizontal": false
       }
     },
@@ -246,7 +246,7 @@
         "name": "Anklebiter",
         "type": "Company",
         "cost": 1,
-        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/03.jpg",
+        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/15.jpg",
         "isHorizontal": false
       }
     },
@@ -262,7 +262,7 @@
         "name": "Anklebiter",
         "type": "Company",
         "cost": 1,
-        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/03.jpg",
+        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/16.jpg",
         "isHorizontal": false
       }
     },
