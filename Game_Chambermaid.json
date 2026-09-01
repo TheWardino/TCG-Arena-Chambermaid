@@ -54,7 +54,7 @@
   "gameplay": {
     "Classic": {
       "beforeGameStart": {
-        "chooseAnotherStartingPlayer": true,
+        "chooseAnotherStartingPlayer": false,
         "initialBoardSetup": {
           "0": [
             {
@@ -97,15 +97,15 @@
       "newTurn": {
         "drawOnStart": false,
         "sharedTurn": true,
-        "firstPlayerTokenName": "Starting",
+        "firstPlayerTokenName": "Coin",
         "drawPerTurn": "1"
       },
       "tokens": [
         {
-          "name": "Starting",
+          "name": "Coin",
           "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/EarthIcon.png",
           "isUnique": true,
-          "leavesAtEndOfTurn": false
+          "leavesAtEndOfTurn": true
         }
       ],
       "countersStartingValues": [
@@ -174,7 +174,9 @@
           "Chamber": "Mana"
         },
         "autoPlayFromStack": {
-          "Tactic": "Discard"
+          "Tactic": "Discard",
+          "Chamber": "Mana"
+		
         },
         "sectionsDict": {
           "Stack": {
@@ -310,7 +312,7 @@
                 "destination": "Chamber",
                 "position": "BOTTOM"
               },
-              "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/ReturnIcon.svg"
+              "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/ReturnIcon(White).svg"
             }
           },
           "Chamber": {
@@ -330,6 +332,14 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false,
             "cardBackColor": "#e0e0e0"
+            "cardActionShortcut": {
+              "action": "MOVE",
+              "actionData": {
+                "destination": "Stack",
+                "position": "TOP"
+              },
+              "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/ReturnIcon(White).svg"
+            }
           }
         }
       }
