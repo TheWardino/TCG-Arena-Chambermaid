@@ -58,9 +58,9 @@
         "initialBoardSetup": {
           "0": [
             {
-              "drawFromTop": "Vault",
+              "drawFromTop": "Chamber",
               "count": 1,
-              "destination": "Chamber"
+              "destination": "Mana"
             },
             {
               "drawFromTop": "Deck",
@@ -70,9 +70,9 @@
           ],
           "1": [
             {
-              "drawFromTop": "Vault",
+              "drawFromTop": "Chamber",
               "count": 1,
-              "destination": "Chamber"
+              "destination": "Mana"
             },
             {
               "drawFromTop": "Deck",
@@ -151,7 +151,7 @@
                   "section": "Mana",
                   "style": {
                     "width": "35%",
-                    "marginRight": "4vh"
+                    "marginLeft": "4vh"
                   }
                 }
               ],
