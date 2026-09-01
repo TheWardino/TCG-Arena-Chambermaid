@@ -331,7 +331,7 @@
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false,
-            "cardBackColor": "#e0e0e0"
+            "cardBackColor": "#e0e0e0",
             "cardActionShortcut": {
               "action": "MOVE",
               "actionData": {
