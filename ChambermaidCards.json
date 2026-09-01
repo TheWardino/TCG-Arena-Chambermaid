@@ -1,0 +1,50 @@
+{
+  "1": {
+    "id": 1,
+    "face": {
+      "front": {
+        "name": "Satchetman",
+        "type": "Company",
+        "cost": 1,
+        "image": "https://images.ygoprodeck.com/images/cards/483.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Satchetman",
+    "type": "Company",
+    "cost": 1,
+    "marks": 1
+  },
+  "2": {
+    "id": 2,
+    "face": {
+      "front": {
+        "name": "Mine",
+        "type": "Landmark",
+        "cost": 1,
+        "image": "https://images.ygoprodeck.com/images/cards/483.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Mine",
+    "type": "Landmark",
+    "cost": 1,
+    "marks": 0
+  },
+  "3": {
+    "id": 3,
+    "face": {
+      "front": {
+        "name": "Boost",
+        "type": "Tactic",
+        "cost": 1,
+        "image": "https://images.ygoprodeck.com/images/cards/483.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Boost",
+    "type": "Tactic",
+    "cost": 1,
+    "marks": 0
+  }
+  }
