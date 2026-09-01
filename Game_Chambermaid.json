@@ -102,7 +102,7 @@
       "tokens": [
         {
           "name": "Starting",
-          "image": "https://i.imgur.com/Zr2oV9p.png",
+          "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/EarthIcong.png",
           "isUnique": true,
           "leavesAtEndOfTurn": false
         }
@@ -122,7 +122,7 @@
           "content": [
             {
               "direction": "row",
-              "style": "false",
+              "style": false,
               "content": [
                 {
                   "section": "Lineup_1"
@@ -168,7 +168,8 @@
           "Vault"
         ],
         "autoPlayFromHand": {
-          "Tactic": "Stack"
+          "Tactic": "Stack",
+          "Chamber": "Chamber"
         },
         "autoPlayFromStack": {
           "Tactic": "Discard"
@@ -232,15 +233,24 @@
             "height": "SMALL",
             "alignment": "CENTER",
             "opponentAlignment": "END",
-            "displayedTitle": "Chamber"
+            "displayedTitle": "Chamber",
+            "cardActionShortcut": {
+              "action": "MOVE",
+              "actionData":{
+                "destination": "Vault",
+                "position": "BOTTOM"
+              },
+              "image": "https://russeus.github.io/RB-TCG-Arena/Images/recycleButton.png"
+            }
           },
           "Vault": {
             "title": "Vault",
             "isHidden": "true",
             "height": "SMALL",
             "alignment": "START",
-            "opponentAlignment": "END",
-            "displayedTitle": "Vault"
+            "opponentAlignment": false,
+            "displayedTitle": "Vault",
+            "isHorizontalAllowed": false
           }
         }
       }
