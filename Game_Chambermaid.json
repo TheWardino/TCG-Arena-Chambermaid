@@ -12,7 +12,7 @@
     "decksUrl": "https://valcur.github.io/TCG-Arena-Pokemon/PokemonDecks.json"
   },
   "cards": {
-    "dataUrl": "https://valcur.github.io/TCG-Arena-Pokemon/PokemonCards.json",
+    "dataUrl": "https://github.com/TheWardino/TCG-Arena-Chambermaid/blob/main/ChambermaidCards.json",
     "cardBack": "https://imgur.com/7Ew7Xv1",
     "extraCardBacks": {
         "type_1": "https://imgur.com/a/VhNHflb"
