@@ -74,7 +74,7 @@
         "isHorizontal": false
       }
     },
-    "name": ""Armordillo",",
+    "name": "Armordillo",
     "type": "Company",
     "cost": 2,
     "marks": 2
@@ -270,7 +270,7 @@
     "type": "Tactic",
     "cost": 2,
     "marks": 0
-  }
+  },
   "17": {
     "id": 17,
     "face": {
@@ -282,7 +282,7 @@
         "isHorizontal": false
       }
     },
-    "name": ""Anklebiter",",
+    "name": "Anklebiter",
     "type": "Company",
     "cost": 1,
     "marks": 1
