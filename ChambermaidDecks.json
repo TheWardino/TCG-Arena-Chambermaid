@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Testing Deck",
+    "id":  "Testing Deck",
+    "game": "Chambermaid Alpha",
+    "format": "Classic",
+    "cardCount": 47,
+    "createdAt": "2025-04-21T14:01:10.188Z",
+    "lastModifiedAt": "2025-04-21T14:01:36.493Z",
+    "deckList": {
+      "categoriesOrder": [
+        "Chamber",
+        "Company",
+        "Tactic",
+        "Landmark"
+      ],
+      "Chamber": [
+        {
+          "count": 2,
+          "id": 0
+        },
+        {
+          "count": 2,
+          "id": 1
+        },
+        {
+          "count": 2,
+          "id": 2
+        },
+        {
+          "count": 1,
+          "id": 3
+        }
+      ],
+      "Company": [
+        {
+          "count": 3,
+          "id": 4
+        }
+      ],
+      "Tactic": [
+        
+        {
+          "count": 3,
+          "id": 7
+        }
+      ],
+      "Landmark": [
+        {
+          "count": 3,
+          "id": 10
+        }]
+    }
+  }]

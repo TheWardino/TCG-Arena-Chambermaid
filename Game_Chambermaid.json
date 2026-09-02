@@ -36,15 +36,15 @@
     "deckRulesets": {
       "Standard": {
         "general": {
-          "min": 46,
-          "max": 46,
+          "min": 47,
+          "max": 47,
           "maxPerCard": 3
         },
         "categories": [
           {
             "category": "Chamber",
-            "min": 6,
-            "max": 6,
+            "min": 7,
+            "max": 7,
             "maxPerCard": 2
           }
         ]
@@ -98,7 +98,8 @@
         "drawOnStart": false,
         "sharedTurn": true,
         "firstPlayerTokenName": "Coin",
-        "drawPerTurn": "1"
+        "drawPerTurn": "1",
+        "turnOrder": "default"
       },
       "tokens": [
         {
