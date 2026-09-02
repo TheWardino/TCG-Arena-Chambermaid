@@ -70,7 +70,7 @@
             {
               "createCardId": "T0",
               "count": 1,
-              "destination": "Initiative"
+              "destination": "Mana"
             }
           ],
           "1": [
@@ -156,9 +156,9 @@
                 {
                   "section": "Mana",
                   "style": {
-                    "width": "40%",
-                    "alignment": "START"
-                }},
+                    "width": "40%"
+                  }
+                },
                 {
                   "section": "Initiative"
                   
