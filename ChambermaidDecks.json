@@ -1,96 +1,101 @@
 [
-  {
-    "title": "Testing Deck",
-    "id":  "Testing Deck",
-    "game": "Chambermaid Alpha",
-    "format": "Classic",
-    "cardCount": 47,
-    "createdAt": "2025-04-21T14:01:10.188Z",
-    "lastModifiedAt": "2025-04-21T14:01:36.493Z",
-    "deckList": {
-      "categoriesOrder": [
-        "Chamber",
-        "Company",
-        "Tactic",
-        "Landmark"
-      ],
-      "Chamber": [
-        {
-          "count": 2,
-          "id": 0
-        },
-        {
-          "count": 2,
-          "id": 1
-        },
-        {
-          "count": 2,
-          "id": 2
-        },
-        {
-          "count": 1,
-          "id": 3
-        }
-      ],
-      "Company": [
-        {
-          "count": 2,
-          "id": 4
-        },
-        {
-          "count": 3,
-          "id": 5
-        },
-        {
-          "count": 3,
-          "id": 6
-        },
-        {
-          "count": 3,
-          "id": 13
-        },
-        {
-          "count": 3,
-          "id": 14
-        },
-        {
-          "count": 3,
-          "id": 17
-        }
-      ],
-      "Tactic": [
-        {
-          "count": 3,
-          "id": 9
-        },
-        {
-          "count": 3,
-          "id": 10
-        },
-        {
-          "count": 3,
-          "id": 11
-        },
-        {
-          "count": 3,
-          "id": 12
-        },
-        {
-          "count": 3,
-          "id": 16
-        }
-      ],
-      "Landmark": [
-        {
-          "count": 3,
-          "id": 7
-        },
-        {
-          "count": 3,
-          "id": 8
-        },        {
-          "count": 3,
-          "id": 15
-        }]
-    }
-  }]
+{
+  "title": "Alpha Test Deck",
+  "id": "83e69e6b-eff2-44a8-b9b1-dfba0c832c67",
+  "cardCount": 47,
+  "createdAt": "2026-09-02T04:22:38.438Z",
+  "lastModifiedAt": "2026-09-02T04:23:59.298Z",
+  "game": "Chambermaid Alpha",
+  "format": [
+    "Alpha Testing"
+  ],
+  "deckList": {
+    "categoriesOrder": [
+      "Chamber",
+      "Company",
+      "Landmark",
+      "Tactic"
+    ],
+    "Chamber": [
+      {
+        "count": 2,
+        "id": 0
+      },
+      {
+        "count": 2,
+        "id": 1
+      },
+      {
+        "count": 2,
+        "id": 2
+      },
+      {
+        "count": 1,
+        "id": 3
+      }
+    ],
+    "Company": [
+      {
+        "count": 2,
+        "id": 4
+      },
+      {
+        "count": 3,
+        "id": 5
+      },
+      {
+        "count": 3,
+        "id": 6
+      },
+      {
+        "count": 3,
+        "id": 15
+      },
+      {
+        "count": 3,
+        "id": 14
+      },
+      {
+        "count": 3,
+        "id": 13
+      },
+      {
+        "count": 2,
+        "id": 17
+      }
+    ],
+    "Landmark": [
+      {
+        "count": 3,
+        "id": 7
+      },
+      {
+        "count": 3,
+        "id": 8
+      }
+    ],
+    "Tactic": [
+      {
+        "count": 3,
+        "id": 9
+      },
+      {
+        "count": 3,
+        "id": 10
+      },
+      {
+        "count": 3,
+        "id": 11
+      },
+      {
+        "count": 3,
+        "id": 12
+      },
+      {
+        "count": 3,
+        "id": 16
+      }
+    ]
+  }
+}
+]
