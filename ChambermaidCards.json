@@ -1,4 +1,21 @@
 {
+   "T0": {
+    "id": T0,
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "The Coin",
+        "type": "Chamber",
+        "cost": 0,
+        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/EarthIcon.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "The Coin",
+    "type": "Chamber",
+    "cost": 0,
+    "marks": 0
+  },
   "0": {
     "id": 0,
     "face": {
