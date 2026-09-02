@@ -1,7 +1,7 @@
 {
    "T0": {
     "id": "T0",
-    "isToken": true,
+    "isToken": false,
     "face": {
       "front": {
         "name": "The Coin",

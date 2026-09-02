@@ -327,6 +327,23 @@
               "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/ReturnIcon(White).svg"
             }
           },
+           "Initiative": {
+            "title": "Initiative",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "DECK",
+            "opponentAlignment": false,
+            "logWhenPlayed": true,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Coin",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
           "Chamber": {
             "title": "Chamber",
             "isHidden": "yes",
@@ -351,24 +368,7 @@
                 "position": "TOP"
               },
               "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/ReturnIcon(White).svg"
-            },
-          "Initiative": {
-            "title": "Initiative",
-            "isHidden": "no",
-            "height": "SMALL",
-            "alignment": "DECK",
-            "opponentAlignment": false,
-            "logWhenPlayed": true,
-            "noAutoPayTo": true,
-            "isHorizontalAllowed": true,
-            "displayedTitle": "Coin",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "isGroupForbidden": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          }
+           }
           }
         }
       }
