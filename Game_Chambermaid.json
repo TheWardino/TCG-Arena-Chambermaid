@@ -63,7 +63,7 @@
               "destination": "Hand"
             },
             {
-              "createCardId": 0,
+              "createCardId": "0",
               "count": 1,
               "destination": "Mana"
             }
@@ -80,7 +80,7 @@
               "destination": "Hand"
             },
             {
-              "createCardId": 0,
+              "createCardId": "0",
               "count": 1,
               "destination": "Mana"
             }
@@ -143,6 +143,9 @@
                 },
                 {
                   "section": "Lineup_6"
+                },
+                {
+                  "section": "Initiative"
                 }
               ]
             },
@@ -150,9 +153,6 @@
               "direction": "row",
               "style": false,
               "content": [
-                {
-                  "section": "Initiative"
-                },
                 {
                   "section": "Chamber"
                 },
