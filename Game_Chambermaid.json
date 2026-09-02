@@ -63,7 +63,7 @@
               "destination": "Hand"
             },
             {
-              "createCardId": "0",
+              "createCardId": "T0",
               "count": 1,
               "destination": "Mana"
             }
@@ -80,7 +80,7 @@
               "destination": "Hand"
             },
             {
-              "createCardId": "0",
+              "createCardId": "T0",
               "count": 1,
               "destination": "Mana"
             }
@@ -143,9 +143,6 @@
                 },
                 {
                   "section": "Lineup_6"
-                },
-                {
-                  "section": "Initiative"
                 }
               ]
             },
@@ -160,6 +157,12 @@
                   "section": "Mana",
                   "style": {
                     "width": "40%"
+                  }
+                },
+                {
+                  "section": "Initiative",
+                  "style": {
+                    "width": "10.2vh"
                   }
                 }
               ],
@@ -353,8 +356,9 @@
             "title": "Initiative",
             "isHidden": "no",
             "height": "SMALL",
-            "alignment": "CENTER",
-            "opponentAlignment": "CENTER",
+            "alignment": "DECK",
+            "opponentAlignment": false,
+            "logWhenPlayed": true,
             "noAutoPayTo": true,
             "isHorizontalAllowed": true,
             "displayedTitle": "Coin",
