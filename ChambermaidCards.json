@@ -3,14 +3,14 @@
     "id": 0,
     "face": {
       "front": {
-        "name": "Power Gem",
+        "name": "Greater Gem",
         "type": "Chamber",
         "cost": 0,
         "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/00.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Power Gem",
+    "name": "Greater Gem",
     "type": "Chamber",
     "cost": 0,
     "marks": 4
@@ -19,97 +19,97 @@
     "id": 1,
     "face": {
       "front": {
-        "name": "Weak Gem",
+        "name": "Lesser Gem",
         "type": "Chamber",
         "cost": 0,
         "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/01.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Weak Gem",
+    "name": "Lesser Gem",
     "type": "Chamber",
     "cost": 0,
-    "marks": 3
+    "marks": 2
   },
   "2": {
     "id": 2,
     "face": {
       "front": {
-        "name": "Potent Gem",
+        "name": "Basic Gem",
         "type": "Chamber",
         "cost": 0,
         "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/02.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Potent Gem",
+    "name": "Basic Gem",
     "type": "Chamber",
     "cost": 0,
-    "marks": 5
+    "marks": 3
   },
   "3": {
     "id": 3,
     "face": {
       "front": {
-        "name": "Anklebiter",
-        "type": "Company",
+        "name": "Power Gem",
+        "type": "Chamber",
         "cost": 1,
         "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/03.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Potent Gem",
+    "name": "Power Gem",
     "type": "Chamber",
-    "cost": 1,
-    "marks": 1
+    "cost": 0,
+    "marks": 5
   },
   "4": {
     "id": 4,
     "face": {
       "front": {
-        "name": "Anklebiter",
+        "name": "Armordillo",
         "type": "Company",
-        "cost": 1,
+        "cost": 2,
         "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/04.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Potent Gem",
+    "name": ""Armordillo",",
     "type": "Company",
-    "cost": 1,
-    "marks": 1
+    "cost": 2,
+    "marks": 2
   },
   "5": {
     "id": 5,
     "face": {
       "front": {
-        "name": "Armordillo",
+        "name": "Gunslinger",
         "type": "Company",
-        "cost": 2,
+        "cost": 3,
         "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/05.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Armordillo",
+    "name": "Gunslinger",
     "type": "Company",
-    "cost": 2,
-    "marks": 2
+    "cost": 3,
+    "marks": 4
   },
   "6": {
     "id": 6,
     "face": {
       "front": {
-        "name": "Anklebiter",
+        "name": "Chamberworks Armor",
         "type": "Company",
-        "cost": 1,
+        "cost": 4,
         "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/06.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Potent Gem",
-    "type": "Chamber",
-    "cost": 1,
-    "marks": 1
+    "name": "Chamberworks Armor",
+    "type": "Company",
+    "cost": 4,
+    "marks": 5
   },
   "7": {
     "id": 7,
@@ -131,32 +131,32 @@
     "id": 8,
     "face": {
       "front": {
-        "name": "Anklebiter",
-        "type": "Company",
-        "cost": 1,
+        "name": "Frontier Monument",
+        "type": "Landmark",
+        "cost": 4,
         "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/08.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Potent Gem",
-    "type": "Chamber",
-    "cost": 1,
-    "marks": 1
+    "name": "Frontier Monument",
+    "type": "Landmark",
+    "cost": 4,
+    "marks": 0
   },
   "9": {
     "id": 9,
     "face": {
       "front": {
-        "name": "Energize",
+        "name": "High Noon",
         "type": "Tactic",
-        "cost": 1,
+        "cost": 3,
         "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/09.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Energize",
+    "name": "High Noon",
     "type": "Tactic",
-    "cost": 1,
+    "cost": 3,
     "marks": 0
   },
   "10": {
@@ -179,95 +179,111 @@
     "id": 11,
     "face": {
       "front": {
-        "name": "Anklebiter",
-        "type": "Company",
-        "cost": 1,
+        "name": "Allocate",
+        "type": "Tactic",
+        "cost": 2,
         "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/11.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Potent Gem",
-    "type": "Chamber",
-    "cost": 1,
-    "marks": 1
+    "name": "Allocate",
+    "type": "Tactic",
+    "cost": 2,
+    "marks": 0
   },
   "12": {
     "id": 12,
     "face": {
       "front": {
-        "name": "Anklebiter",
-        "type": "Company",
-        "cost": 1,
+        "name": "Sabotager",
+        "type": "Tactic",
+        "cost": 4,
         "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/12.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Potent Gem",
-    "type": "Chamber",
-    "cost": 1,
-    "marks": 1
+    "name": "Sabotage",
+    "type": "Tactic",
+    "cost": 4,
+    "marks": 0
   },
   "13": {
     "id": 13,
     "face": {
       "front": {
-        "name": "Anklebiter",
+        "name": "Rookie",
         "type": "Company",
         "cost": 1,
         "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/13.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Potent Gem",
-    "type": "Chamber",
+    "name": "Rookie",
+    "type": "Company",
     "cost": 1,
-    "marks": 1
+    "marks": 2
   },
   "14": {
     "id": 14,
     "face": {
       "front": {
-        "name": "Anklebiter",
+        "name": "Vagrant",
         "type": "Company",
-        "cost": 1,
+        "cost": 2,
         "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/14.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Potent Gem",
-    "type": "Chamber",
-    "cost": 1,
-    "marks": 1
+    "name": "Vagrant",
+    "type": "Company",
+    "cost": 2,
+    "marks": 3
   },
   "15": {
     "id": 15,
     "face": {
       "front": {
-        "name": "Anklebiter",
+        "name": "Supply Train",
         "type": "Company",
-        "cost": 1,
+        "cost": 3,
         "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/15.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Potent Gem",
-    "type": "Chamber",
-    "cost": 1,
-    "marks": 1
+    "name": "Supply Train",
+    "type": "Company",
+    "cost": 3,
+    "marks": 0
   },
   "16": {
     "id": 16,
     "face": {
       "front": {
-        "name": "Anklebiter",
-        "type": "Company",
-        "cost": 1,
+        "name": "Tamper",
+        "type": "Tactic",
+        "cost": 2,
         "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/16.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Potent Gem",
-    "type": "Chamber",
+    "name": "Tamper",
+    "type": "Tactic",
+    "cost": 2,
+    "marks": 0
+  }
+  "17": {
+    "id": 17,
+    "face": {
+      "front": {
+        "name": "Anklebiter",
+        "type": "Company",
+        "cost": 1,
+        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/04.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": ""Anklebiter",",
+    "type": "Company",
     "cost": 1,
     "marks": 1
   }
