@@ -1,6 +1,6 @@
 {
   "name": "Chambermaid Alpha",
-  "menuBackgroundImage": "https://valcur.github.io/TCG-Arena-Yugioh/Images/banner.jpg",
+  "menuBackgroundImage": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/TestBanner.jpg",
   "defaultRessources": {
     "backgrounds": [
       "https://valcur.github.io/TCG-Arena-Pokemon/Images/1.jpg",
@@ -10,7 +10,7 @@
       "https://valcur.github.io/TCG-Arena-Pokemon/Images/5.jpg",
       "https://valcur.github.io/TCG-Arena-Pokemon/Images/6.jpg"
     ],
-    "decksUrl": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/TestBanner.jpg"
+    "decksUrl": "https://thewardino.github.io/TCG-Arena-Chambermaid/ChambermaidDecks.json"
   },
   "cardRotation": "60",
   "cards": {
@@ -158,10 +158,10 @@
                   "style": {
                     "width": "40%",
                     "alignment": "START"
-                  },
+                }},
                 {
                   "section": "Initiative"
-                  }
+                  
                 }
               ],
               "isSymetricalForOpponents": false
