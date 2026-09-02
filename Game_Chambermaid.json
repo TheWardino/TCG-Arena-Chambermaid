@@ -79,6 +79,30 @@
               "count": 1,
               "destination": "Hand"
             }
+          ],
+          "2": [
+            {
+              "drawFromTop": "Chamber",
+              "count": 1,
+              "destination": "Mana"
+            },
+            {
+              "drawFromTop": "Deck",
+              "count": 1,
+              "destination": "Hand"
+            }
+          ],
+          "3": [
+            {
+              "drawFromTop": "Chamber",
+              "count": 1,
+              "destination": "Mana"
+            },
+            {
+              "drawFromTop": "Deck",
+              "count": 1,
+              "destination": "Hand"
+            }
           ]
         }
       },
@@ -328,7 +352,7 @@
             "logWhenPlayed": true,
             "noAutoPayTo": true,
             "isHorizontalAllowed": false,
-            "displayedTitle": "Coin",
+            "displayedTitle": "Other",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
