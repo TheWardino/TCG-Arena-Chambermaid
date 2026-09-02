@@ -65,7 +65,7 @@
             {
               "createCardId": "T0",
               "count": 1,
-              "destination": "Mana"
+              "destination": "Initiative"
             }
           ],
           "1": [
@@ -323,7 +323,7 @@
             "title": "Initiative",
             "isHidden": "no",
             "height": "SMALL",
-            "alignment": "DECK",
+            "alignment": "CENTER",
             "opponentAlignment": false,
             "logWhenPlayed": true,
             "noAutoPayTo": true,
