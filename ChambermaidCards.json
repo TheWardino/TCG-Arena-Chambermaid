@@ -244,14 +244,14 @@
     "face": {
       "front": {
         "name": "Supply Train",
-        "type": "Company",
+        "type": "Landmark",
         "cost": 3,
         "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/15.jpg",
         "isHorizontal": false
       }
     },
     "name": "Supply Train",
-    "type": "Company",
+    "type": "Landmark",
     "cost": 3,
     "marks": 0
   },
