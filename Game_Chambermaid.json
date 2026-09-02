@@ -3,12 +3,7 @@
   "menuBackgroundImage": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/TestBanner.jpg",
   "defaultRessources": {
     "backgrounds": [
-      "https://valcur.github.io/TCG-Arena-Pokemon/Images/1.jpg",
-      "https://valcur.github.io/TCG-Arena-Pokemon/Images/2.jpg",
-      "https://valcur.github.io/TCG-Arena-Pokemon/Images/3.jpg",
-      "https://valcur.github.io/TCG-Arena-Pokemon/Images/4.jpg",
-      "https://valcur.github.io/TCG-Arena-Pokemon/Images/5.jpg",
-      "https://valcur.github.io/TCG-Arena-Pokemon/Images/6.jpg"
+      "https://valcur.github.io/TCG-Arena-Pokemon/Images/1.jpg"
     ],
     "decksUrl": "https://thewardino.github.io/TCG-Arena-Chambermaid/ChambermaidDecks.json"
   },
@@ -68,7 +63,7 @@
               "destination": "Hand"
             },
             {
-              "createCardId": "T0",
+              "createCardId": 0,
               "count": 1,
               "destination": "Mana"
             }
@@ -83,6 +78,11 @@
               "drawFromTop": "Deck",
               "count": 1,
               "destination": "Hand"
+            },
+            {
+              "createCardId": "T0",
+              "count": 1,
+              "destination": "Mana"
             }
           ]
         }
@@ -151,6 +151,9 @@
               "style": false,
               "content": [
                 {
+                  "section": "Initiative"
+                },
+                {
                   "section": "Chamber"
                 },
                 {
@@ -158,10 +161,6 @@
                   "style": {
                     "width": "40%"
                   }
-                },
-                {
-                  "section": "Initiative"
-                  
                 }
               ],
               "isSymetricalForOpponents": false
