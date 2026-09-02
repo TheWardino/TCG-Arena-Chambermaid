@@ -80,7 +80,7 @@
               "destination": "Hand"
             },
             {
-              "createCardId": "T0",
+              "createCardId": 0,
               "count": 1,
               "destination": "Mana"
             }
@@ -353,19 +353,18 @@
             "title": "Initiative",
             "isHidden": "no",
             "height": "SMALL",
-            "alignment": "DECK",
-            "opponentAlignment": false,
+            "alignment": "CENTER",
+            "opponentAlignment": "CENTER",
             "noAutoPayTo": true,
-            "isHorizontalAllowed": false,
+            "isHorizontalAllowed": true,
             "displayedTitle": "Coin",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
             "isGroupForbidden": false,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false,
-            "cardBackColor": "#e0e0e0"
-            }
+            "showHiddenCardInHistory": false
+          }
           }
         }
       }
