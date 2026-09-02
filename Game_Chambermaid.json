@@ -78,11 +78,6 @@
               "drawFromTop": "Deck",
               "count": 1,
               "destination": "Hand"
-            },
-            {
-              "createCardId": "T0",
-              "count": 1,
-              "destination": "Mana"
             }
           ]
         }
@@ -160,10 +155,7 @@
                   }
                 },
                 {
-                  "section": "Initiative",
-                  "style": {
-                    "width": "10.2vh"
-                  }
+                  "section": "Initiative"
                 }
               ],
               "isSymetricalForOpponents": false
@@ -335,7 +327,7 @@
             "opponentAlignment": false,
             "logWhenPlayed": true,
             "noAutoPayTo": true,
-            "isHorizontalAllowed": true,
+            "isHorizontalAllowed": false,
             "displayedTitle": "Coin",
             "noQuickActions": false,
             "enterTapped": false,
