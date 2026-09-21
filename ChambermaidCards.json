@@ -16,6 +16,22 @@
     "cost": 0,
     "marks": 0
   },
+  "L0": {
+    "id": 0,
+    "face": {
+      "front": {
+        "name": "Loadstone",
+        "type": "Chamber",
+        "cost": 0,
+        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/L0.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Loadstone",
+    "type": "Chamber",
+    "cost": 0,
+    "marks": 0
+  },
   "0": {
     "id": 0,
     "face": {
