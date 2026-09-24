@@ -21,14 +21,14 @@
     "face": {
       "front": {
         "name": "Loadstone",
-        "type": "Chamber",
+        "type": "Loadstone",
         "cost": 0,
         "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/L0.png",
         "isHorizontal": false
       }
     },
     "name": "Loadstone",
-    "type": "Chamber",
+    "type": "Loadstone",
     "cost": 0,
     "marks": 0
   },
@@ -319,5 +319,21 @@
     "type": "Company",
     "cost": 1,
     "marks": 1
+  },
+  "18": {
+    "id": 18,
+    "face": {
+      "front": {
+        "name": "Big Blue Bovine",
+        "type": "Company",
+        "cost": 7,
+        "image": "https://thewardino.github.io/TCG-Arena-Chambermaid/Images/Cards/17.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Big Blue Bovine",
+    "type": "Company",
+    "cost": 7,
+    "marks": 7
   }
 }

@@ -62,15 +62,19 @@
       {
         "count": 2,
         "id": 17
+      },
+	  {
+        "count": 2,
+        "id": 18
       }
     ],
     "Landmark": [
       {
-        "count": 3,
+        "count": 2,
         "id": 7
       },
       {
-        "count": 3,
+        "count": 2,
         "id": 8
       }
     ],
